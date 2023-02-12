@@ -76,7 +76,7 @@
                          <div class="home__img">
                             <img src="./assets/img/Vector1.png" alt="" class="home__blob home__blob-1">
                             <img src="./assets/img/Vector2.png" alt="" class="home__blob home__blob-2">
-                            <img src="./assets/img/toniFoto1.jpg" alt="toni-foto" class="home__blob-img">
+                            <img src="./assets/img/toniFoto2.png" alt="toni-foto" class="home__blob-img">
                         </div>
 
                         
@@ -121,7 +121,7 @@
                         <div class="about__info">
 
                             <div class="about__buttons">
-                                <a download="" href="assets/pdf/Antonio Piatti CV España.pdf" class="button button--flex button__scroll-reveal"> Download CV
+                                <a download="" href="assets/pdf/Cv2023.png" class="button button--flex button__scroll-reveal"> Download CV
                                     <i class="uil uil-download-alt button__icon"></i>
                                 </a>
                             </div>
@@ -404,24 +404,24 @@
                         </div>
                     </div>
 
-                    <form action="https://formsubmit.co/f7e8c5f0abfd6d6501744fd98863d254" method="POST" class="contact__form grid">
+                    <form action="enviar.php" method="POST" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" name="name" class="contact__input">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" name="mail" class="contact__input">
                             </div>
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Project</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" name="project" class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea name="" id="" cols="0" rows="7" name="message" class="contact__input"></textarea>
                         </div>
 
                         <div>
@@ -430,6 +430,20 @@
                                 <i class="uil uil-message button__icon"></i>
                             </button>
                         </div>
+
+                        <!--      <label for="" class="contact__label">Name</label>
+                                <input type="text" name="name" class="contact__input">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" name="mail" class="contact__input">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" name="project" class="contact__input">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" name="message" class="contact__input"></textarea>
+
+                            <button type="submit"  class="button button--flex button__scroll-reveal contact__content-icon">
+                                Send message
+                                <i class="uil uil-message button__icon"></i>
+                            </button>  -->
                     </form>
                 </div>
             </section>
