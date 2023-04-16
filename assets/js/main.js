@@ -36,8 +36,18 @@ function openSkillsBar() {
   skillList.classList.toggle('skills__list-open')
   skillsIcon.classList.toggle('skills__icon-down-opened')
 }
-
+/*==================== ACCORDION SKILLS 2 ====================*/
 skillsIcon.addEventListener('click', openSkillsBar)
+
+const skillList2 = document.getElementById('skills__list2');
+const skillsIcon2 = document.getElementById('skills__icon-down2');
+
+function openSkillsBar2() {
+  skillList2.classList.toggle('skills__list-open2')
+  skillsIcon2.classList.toggle('skills__icon-down-opened')
+}
+
+skillsIcon2.addEventListener('click', openSkillsBar2)
 
 /*==================== QUALIFICATION TABS ====================*/
 
@@ -152,6 +162,30 @@ const sr = ScrollReveal({
 sr.reveal('.home__social',{}); 
 sr.reveal('.home__img',{}); 
 sr.reveal('.home__title, .home__subtitle, .home__description',{ delay: 300}); 
-sr.reveal('.home__contact-icon',{ delay: 400});
+sr.reveal(".home__contact-icon", { delay: 400 });
 
-sr.reveal('.button__scroll-reveal',{}); 
+sr.reveal(".button__scroll-reveal", {});
+
+/*==================== SEND CONTACT INFORMATION ====================*/
+
+const btn = document.getElementById("button");
+
+document.getElementById("form").addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  btn.classList.add('cargando');
+
+  const serviceID = "default_service";
+  const templateID = "template_bh65hvn";
+
+  emailjs.sendForm(serviceID, templateID, this).then(
+    () => {
+      btn.classList.remove('cargando');
+      alert("Message sent correctly!");
+    },
+    (err) => {
+      btn.classList.remove('cargando');
+      alert(JSON.stringify(err));
+    }
+  );
+});
