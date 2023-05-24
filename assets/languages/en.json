@@ -67,6 +67,7 @@
   },
   "footer__data": {
     "footer_portfolio": "Portfolio",
-    "footer_contact": "Contact me"
+    "footer_contact": "Contact me",
+    "footer_rights": "© Antonio Piatti Fadda. All right reserved."
   }
 }

@@ -1,7 +1,7 @@
 {
   "nav_data": {
     "nav_home": "<i class='uil uil-estate nav__icon-img'></i> Inicio",
-    "nav_about": "<i class='uil uil-user nav__icon-img'></i> Acerca de",
+    "nav_about": "<i class='uil uil-user nav__icon-img'></i> Acerca de mi",
     "nav_skills": "<i class='uil uil-file-alt nav__icon-img'></i> Habilidades",
     "nav_qualifications": "  <i class='uil uil-book-open nav__icon-img'></i>  Educación",
     "nav_portfolio": " <i class='uil uil-scenery nav__icon-img'></i> Proyectos",
@@ -67,6 +67,7 @@
   },
   "footer__data": {
     "footer_portfolio": "Proyectos",
-    "footer_contact": "Contacto"
+    "footer_contact": "Contacto",
+    "footer_rights": "© Antonio Piatti Fadda. Todos los derechos reservados."
   }
 }
