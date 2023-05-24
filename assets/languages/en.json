@@ -1,0 +1,72 @@
+{
+  "nav_data": {
+    "nav_home": "<i class='uil uil-estate nav__icon-img'></i> Home",
+    "nav_about": "<i class='uil uil-user nav__icon-img'></i> About",
+    "nav_skills": "<i class='uil uil-file-alt nav__icon-img'></i> Skills",
+    "nav_qualifications": "  <i class='uil uil-book-open nav__icon-img'></i>  Qualification",
+    "nav_portfolio": " <i class='uil uil-scenery nav__icon-img'></i> Portfolio",
+    "nav_contact": "<i class='uil uil-message nav__icon-img'></i>Contact"
+  },
+  "home_data": {
+    "home_title": "Hi, I'm Antonio",
+    "home_button": "Contact me <i class='uil uil-message button__icon'></i>",
+    "home__description": "28 years old.</br>Córdoba, Argentina."
+  },
+  "about_data": {
+    "about_title": "About Me",
+    "about_subtitle": "My introduction",
+    "about_description": "I have developed a passion for technology since I was a child. My interests have always been related to how computers work. From an early age, I became interested in different techology-related activities, from playing games to installing programs and OS. I’m eager to learn more about this amazing field and I’m open to every opportunity that implies learning and growing in this industry.",
+    "about_button": "Download CV  <i class='uil uil-download-alt button__icon'></i>"
+  },
+  "skills_data": {
+    "skills_title": "Skills",
+    "skills_subtitle": "My technical level",
+    "skills_frontend__title": "Frontend developer",
+    "skills_backend__title": "Backend developer"
+  },
+  "qualification_data": {
+    "qualification_title": "Qualification",
+    "qualification_subtitle": "My personal journey",
+    "qualification_education": "<i class='uil uil-graduation-cap qualification__icon'></i> Education",
+    "qualification_first__qualification__title": "Web developer course",
+    "qualification_first__qualification__year": "<i class='uil uil-calendar-alt'></i> September - 2022",
+    "qualification_second__qualification__title": "React course",
+    "qualification_second__qualification__year": "<i class='uil uil-calendar-alt'></i> Dicember - 2022",
+    "qualification_third__qualification__title": "Next.js course",
+    "qualification_third__qualification__year": "<i class='uil uil-calendar-alt'></i> January - 2023",
+    "qualification_fourth__qualification__title": "Full Stack developer",
+    "qualification_fourth__qualification__year": " <i class='uil uil-calendar-alt'></i> March - 2023"
+  },
+  "portfolio_data": {
+    "portfolio_title": "Portfolio",
+    "portfolio_subtitle": "Most recent projects",
+    "portfolio_first__project__title": "E-Shop with Firebase",
+    "portfolio_first__project__description": "Intuitive E-Commerce Platform with Firebase.",
+    "portfolio_second__project__title": "Product's API",
+    "portfolio_second__project__description": "Easy Integration for any application.",
+    "portfolio_third__project__title": "Tic -Tac -Toe",
+    "portfolio_third__project__description": "Simple yet very funny!",
+    "portfolio_fourth__project__title": "Weather app",
+    "portfolio_fourth__project__description": "Look up the weather of any city on the planet.",
+    "portfolio_fifth__project__title": "Task application",
+    "portfolio_fifth__project__description": "Write your tasks and they persist in local storage!",
+    "portfolio_sixth__project__title": "E-Shop",
+    "portfolio_sixth__project__description": "E-Shop done with Next.js",
+    "portfolio_first__button": "Try it <i class='uil uil-arrow-right button__icon'></i>",
+    "portfolio_second__button": "GitHub <i class='uil uil-arrow-right button__icon'></i>"
+  },
+  "contact_data": {
+    "contact_title": "Contact Me",
+    "contact_subtitle": "Get in touch",
+    "contact_phone__number": "Phone number",
+    "contact_location": "Location",
+    "contact_form__name": "Name ",
+    "contact_form__project": "Project ",
+    "contact_form__message": "Message",
+    "contact_form__button": "Send message <i class='uil uil-message button__icon'></i>"
+  },
+  "footer__data": {
+    "footer_portfolio": "Portfolio",
+    "footer_contact": "Contact me"
+  }
+}

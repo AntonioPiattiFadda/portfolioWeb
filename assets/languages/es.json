@@ -1,0 +1,72 @@
+{
+  "nav_data": {
+    "nav_home": "<i class='uil uil-estate nav__icon-img'></i> Inicio",
+    "nav_about": "<i class='uil uil-user nav__icon-img'></i> Acerca de",
+    "nav_skills": "<i class='uil uil-file-alt nav__icon-img'></i> Habilidades",
+    "nav_qualifications": "  <i class='uil uil-book-open nav__icon-img'></i>  Educación",
+    "nav_portfolio": " <i class='uil uil-scenery nav__icon-img'></i> Proyectos",
+    "nav_contact": "<i class='uil uil-message nav__icon-img'></i>Contacto"
+  },
+  "home_data": {
+    "home_title": "Hola, soy Antonio",
+    "home_button": "Información de contacto <i class='uil uil-message button__icon'></i>",
+    "home__description": "28 años.</br>Córdoba, Argentina."
+  },
+  "about_data": {
+    "about_title": "Acerca de mi",
+    "about_subtitle": "Mi introduccion",
+    "about_description": "He desarrollado una gran pasión por la tecnología desde chico. Siempre he estado interesado en actividades relacionadas con la tecnología, desde jugar videojuegos hasta instalar programas y sistemas operativos. Estoy entusiasmado por aprender más sobre este increíble campo y estoy abierto a las oportunidades que impliquen crecer en esta industria.",
+    "about_button": "Descargar CV  <i class='uil uil-download-alt button__icon'></i>"
+  },
+  "skills_data": {
+    "skills_title": "Habilidades",
+    "skills_subtitle": "Mi nivel técnico",
+    "skills_frontend__title": "Desarrollo frontend",
+    "skills_backend__title": "Desarrollo backend"
+  },
+  "qualification_data": {
+    "qualification_title": "Educación",
+    "qualification_subtitle": "Mi trayectoria",
+    "qualification_education": "<i class='uil uil-graduation-cap qualification__icon'></i> Cursos",
+    "qualification_first__qualification__title": "Curso de desarrollo web",
+    "qualification_first__qualification__year": "<i class='uil uil-calendar-alt'></i> Septiembre - 2022",
+    "qualification_second__qualification__title": "Curso de React",
+    "qualification_second__qualification__year": "<i class='uil uil-calendar-alt'></i> Diciembre - 2022",
+    "qualification_third__qualification__title": "Curso de Next.js",
+    "qualification_third__qualification__year": "<i class='uil uil-calendar-alt'></i> Febrero - 2023",
+    "qualification_fourth__qualification__title": "Desarrollo Full Stack",
+    "qualification_fourth__qualification__year": " <i class='uil uil-calendar-alt'></i> Marzo - 2023"
+  },
+  "portfolio_data": {
+    "portfolio_title": "Portfolio",
+    "portfolio_subtitle": "Proyectos recientes",
+    "portfolio_first__project__title": "E-Shop con Firebase",
+    "portfolio_first__project__description": "Plataforma de e-commerce intuitiva hecha con Firebase",
+    "portfolio_second__project__title": "Product's API",
+    "portfolio_second__project__description": "Fácil integración con cualquier aplicación.",
+    "portfolio_third__project__title": "Ta - Te - Ti",
+    "portfolio_third__project__description": "Simple y muy divertida!",
+    "portfolio_fourth__project__title": "Aplicación del clima",
+    "portfolio_fourth__project__description": "Busca el clima de cualquier ciudad del planeta.",
+    "portfolio_fifth__project__title": "Aplicación de tareas",
+    "portfolio_fifth__project__description": "Escribe tus tareas y persisten en el local storage!",
+    "portfolio_sixth__project__title": "E-Shop",
+    "portfolio_sixth__project__description": "E-Shop hecho con Next.js",
+    "portfolio_first__button": "Probar <i class='uil uil-arrow-right button__icon'></i>",
+    "portfolio_second__button": "GitHub <i class='uil uil-arrow-right button__icon'></i>"
+  },
+  "contact_data": {
+    "contact_title": "Contacto",
+    "contact_subtitle": "Mis datos",
+    "contact_phone__number": "Teléfono",
+    "contact_location": "Ubicación",
+    "contact_form__name": "Nombre",
+    "contact_form__project": "Proyecto",
+    "contact_form__message": "Mensaje",
+    "contact_form__button": "Enviar mensaje <i class='uil uil-message button__icon'></i>"
+  },
+  "footer__data": {
+    "footer_portfolio": "Proyectos",
+    "footer_contact": "Contacto"
+  }
+}

@@ -157,6 +157,7 @@ img {
 .nav__toogle:hover {
   color: var(--first-color);
 }
+
 @media screen and (max-width: 767px) {
   .header {
     top: 0;
@@ -217,6 +218,18 @@ img {
   color: var(--first-color-alt);
 }
 
+.nav__flags__container {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+.nav__flags {
+  width: 20px;
+}
+.nav__flags:hover {
+  scale: 1.1;
+}
+
 /* show menu */
 .show-menu {
   bottom: 0;
@@ -243,6 +256,7 @@ img {
   grid-template-columns: 0.5fr 3fr;
   padding-top: 3.5fr;
   align-items: center;
+  margin-top: 30px;
 }
 
 .home__social {

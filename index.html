@@ -12,37 +12,41 @@
     <body>
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Toni</a>
-    
+                <a href="#" class="nav__logo">Antonio</a>
+                <div class="nav__flags__container">
+                    <img  class="traductionBtn nav__flags"   data-language="en" class="nav__flags" src="./assets/png/united-states-of-america.png" alt="United States's flag">
+                    <img class="traductionBtn nav__flags" data-language="es" class="nav__flags" src="./assets/png/spain.png" alt="Spain's flag">
+                </div>
+                
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link nav__icon active-link">
+                            <a href="#home" data-section="nav_data" data-value="nav_home" class="nav__link nav__icon active-link">
                                 <i class="uil uil-estate nav__icon-img"></i> Home
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link nav__icon">
+                            <a href="#about" data-section="nav_data" data-value="nav_about" class="nav__link nav__icon">
                                 <i class="uil uil-user nav__icon-img"></i> About
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#skills" class="nav__link nav__icon">
+                            <a href="#skills" data-section="nav_data" data-value="nav_skills" class="nav__link nav__icon">
                                 <i class="uil uil-file-alt nav__icon-img"></i> Skills
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#qualification" class="nav__link nav__icon">
+                            <a href="#qualification" data-section="nav_data" data-value="nav_qualifications" class="nav__link nav__icon">
                                 <i class="uil uil-book-open nav__icon-img"></i> Qualification
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#portfolio" class="nav__link nav__icon">
+                            <a href="#portfolio" data-section="nav_data" data-value="nav_portfolio" class="nav__link nav__icon">
                                 <i class="uil uil-scenery nav__icon-img"></i> Portfolio
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#contact" class="nav__link nav__icon">
+                            <a href="#contact" data-section="nav_data" data-value="nav_contact" class="nav__link nav__icon">
                                 <i class="uil uil-message nav__icon-img"></i> Contact
                             </a>
                         </li>
@@ -57,7 +61,6 @@
                 </div>
             </nav>
         </header>
-    
     
         <main class="main">
             <section class="home section" id="home">
@@ -79,15 +82,15 @@
                             <img src="./assets/img/Vector2.png" alt="Blob Image" class="home__blob home__blob-2">
                             <img src="https://i.postimg.cc/Z5JkJdtB/IMG-1272-removebg-preview.png" alt="toni-foto" class="home__blob-img">
                         </div>
-    
-    
-    
+                   
                         <div class="home__data">
-                            <h1 class="home__title">Hi, I'm Antonio</h1>
+                            <h1 class="home__title" data-section="home_data" data-value="home_title"">Hi, I'm Antonio</h1>
                             <h3 class="home__subtitle">Full Stack Developer</h3>
-                            <p class="home__description">
+                            <p  data-section="home_data" data-value="home__description" class="home__description">
+                                28 years old. </br>                            Córdoba, Argentina.
                             </p>
-                            <a href="#contact" class="button button--flex button__scroll-reveal home__contact-icon">
+
+                            <a href="#contact" data-section="home_data" data-value="home_button" class="button button--flex button__scroll-reveal home__contact-icon">
                                 Contact Me<i class="uil uil-message button__icon"></i>
                             </a>
                         </div>
@@ -110,19 +113,19 @@
     
     
             <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">My introduction</span>
+                <h2 data-section="about_data" data-value="about_title" class="section__title">About Me</h2>
+                <span data-section="about_data" data-value="about_subtitle" class="section__subtitle">My introduction</span>
     
                 <div class="about__container container grid">
                     <img src="./assets/img/toniFoto1.jpg" alt="" class="about__img">
     
                     <div class="about__data">
-                        <p class="about__description">
+                        <p  data-section="about_data" data-value="about_description" class="about__description">
                             I have developed a passion for technology since I was a child. My interests have always been related to how computers work. From an early age, I became interested in different techology-related activities, from playing games to installing programs and OS. I’m eager to learn more about this amazing field and I’m open to every opportunity that implies learning and growing in this industry.                         </p>
                         <div class="about__info">
     
                             <div class="about__buttons">
-                                <a download="" href="assets/pdf/CvPiattiFaddaAntonio.pdf"
+                                <a data-section="about_data" data-value="about_button"  download="" href="assets/pdf/CvPiattiFaddaAntonio.pdf"
                                     class="button button--flex button__scroll-reveal"> Download CV
                                     <i class="uil uil-download-alt button__icon"></i>
                                 </a>
@@ -134,8 +137,8 @@
     
     
             <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
-                <span class="section__subtitle">My technical level</span>
+                <h2 data-section="skills_data" data-value="skills_title" class="section__title">Skills</h2>
+                <span data-section="skills_data" data-value="skills_subtitle"  class="section__subtitle">My technical level</span>
     
                 <div class="skills__container container grid">
                     <div class="skill__container-content">
@@ -145,7 +148,7 @@
                                 <i class="uil uil-brackets-curly skills__icon"></i>
     
                                 <div>
-                                    <h1 class="skills__title">Frontend developer</h1>
+                                    <h1 data-section="skills_data" data-value="skills_frontend__title"  class="skills__title">Frontend developer</h1>
     
                                 </div>
     
@@ -186,7 +189,7 @@
                                 <i class="uil uil-server-alt skills__icon"></i>
     
                                 <div>
-                                    <h1 class="skills__title">Backend developer</h1>
+                                    <h1 data-section="skills_data" data-value="skills_backend__title" class="skills__title">Backend developer</h1>
     
                                 </div>
     
@@ -215,14 +218,14 @@
     
     
             <section class="qualification section" id="qualification">
-                <h2 class="section__title">Qualification</h2>
-                <span class="section__subtitle">My personal journey</span>
+                <h2 data-section="qualification_data" data-value="qualification_title"  class="section__title">Qualification</h2>
+                <span data-section="qualification_data" data-value="qualification_subtitle"  class="section__subtitle">My personal journey</span>
     
                 <div class="qualification__container container">
                     <div class="qualification__tabs">
-                        <div class="qualification__button button--flex">
+                        <div data-section="qualification_data" data-value="qualification_education"  class="qualification__button button--flex">
                             <i class="uil uil-graduation-cap qualification__icon"></i>
-                            Ecucation
+                            Education
                         </div>
                     </div>
     
@@ -230,9 +233,9 @@
                         <div class="qualification__content">
                             <div class="qualification__data">
                                 <div class="qualification__data-info1" id="qualification__data-info1">
-                                    <h3 class="qualification__title">Web developer course</h3>
+                                    <h3 data-section="qualification_data" data-value="qualification_first__qualification__title"  class="qualification__title">Web developer course</h3>
                                     <span class="qualification__subtitle">Coderhouse</span>
-                                    <div class="qualification__calendar">
+                                    <div data-section="qualification_data" data-value="qualification_first__qualification__year" class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         September - 2022
                                     </div>
@@ -253,9 +256,9 @@
                                 </div>
     
                                 <div class="qualification__data-info2" id="qualification__data-info2">
-                                    <h3 class="qualification__title">React course</h3>
+                                    <h3 data-section="qualification_data" data-value="qualification_second__qualification__title" class="qualification__title">React course</h3>
                                     <span class="qualification__subtitle">Platzi</span>
-                                    <div class="qualification__calendar">
+                                    <div data-section="qualification_data" data-value="qualification_second__qualification__year"  class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         Dicember - 2022
                                     </div>
@@ -266,9 +269,9 @@
     
                             <div class="qualification__data">
                                 <div class="qualification__data-info3" id="qualification__data-info3">
-                                    <h3 class="qualification__title">Next course</h3>
+                                    <h3 data-section="qualification_data" data-value="qualification_third__qualification__title" class="qualification__title">Next.js course</h3>
                                     <span class="qualification__subtitle">Platzi</span>
-                                    <div class="qualification__calendar">
+                                    <div data-section="qualification_data" data-value="qualification_third__qualification__year" class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         January - 2023
                                     </div>
@@ -288,9 +291,9 @@
                                 </div>
     
                                 <div class="qualification__data-info4" id="qualification__data-info4">
-                                    <h3 class="qualification__title">Full Stack developer</h3>
+                                    <h3 data-section="qualification_data" data-value="qualification_fourth__qualification__title" class="qualification__title">Full Stack developer</h3>
                                     <span class="qualification__subtitle">Platzi</span>
-                                    <div class="qualification__calendar">
+                                    <div data-section="qualification_data" data-value="qualification_fourth__qualification__year" class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         March - 2023
                                     </div>
@@ -306,8 +309,8 @@
     
     
             <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Portfolio</h2>
-                <span class="section__subtitle">Most recent projects</span>
+                <h2 data-section="portfolio_data" data-value="portfolio_title"  class="section__title">Portfolio</h2>
+                <span data-section="portfolio_data" data-value="portfolio_subtitle" class="section__subtitle">Most recent projects</span>
     
                 <div class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
@@ -316,14 +319,14 @@
                             <img src="https://i.postimg.cc/Bn3mSZxX/Sin-t-tulo.png" alt="" class="portfolio__img">
     
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">E-Shop with Firebase</h3>
-                                <p class="portfolio__desctiption">Intuitive E-Commerce Platform with Firebase</p>
-                                <a href="https://e-shop-firebase.vercel.app/" target="_blank"
+                                <h3 data-section="portfolio_data" data-value="portfolio_first__project__title" class="portfolio__title">E-Shop with Firebase</h3>
+                                <p data-section="portfolio_data" data-value="portfolio_first__project__description"  class="portfolio__desctiption">Intuitive E-Commerce Platform with Firebase.</p>
+                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://e-shop-firebase.vercel.app/" target="_blank"
                                     class="button button--flex button--small portfolio__button">
                                     Try it
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
-                                <a href="https://github.com/AntonioPiattiFadda/CursoCoderReact.git" target="_blank"
+                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/CursoCoderReact.git" target="_blank"
                                     class="button button--flex button--small portfolio__button">
                                     GitHub
                                     <i class="uil uil-arrow-right button__icon"></i>
@@ -335,18 +338,18 @@
                             <img src="https://i.postimg.cc/gjnvsJfk/Sin-t-tulo.png" alt="" class="portfolio__img">
     
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Product's API</h3>
-                                <p class="portfolio__desctiption">Easy Integration for Any Application</p>
-                                <a href="https://back-end-express-postgres1.vercel.app/api/v1/products" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Try it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a href="https://github.com/AntonioPiattiFadda/BackEnd-ExpressPostgres1.git" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
+                                <h3 data-section="portfolio_data" data-value="portfolio_second__project__title"  class="portfolio__title">Product's API</h3>
+                                <p data-section="portfolio_data" data-value="portfolio_second__project__description"  class="portfolio__desctiption">Easy Integration for any application.</p>
+                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://e-shop-firebase.vercel.app/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Try it
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/CursoCoderReact.git" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                GitHub
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
                             </div>
                         </div>
     
@@ -354,18 +357,18 @@
                             <img src="/assets/img/tic-tac-toe.png" alt="" class="portfolio__img">
     
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Tic -Tac -Toe</h3>
-                                <p class="portfolio__desctiption">Simple yet very funny!</p>
-                                <a href="https://tic-tac-toe-ruby-xi.vercel.app/" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Try it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a href="https://github.com/AntonioPiattiFadda/Tic-Tac-Toe" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
+                                <h3 data-section="portfolio_data" data-value="portfolio_third__project__title" class="portfolio__title">Tic -Tac -Toe</h3>
+                                <p data-section="portfolio_data" data-value="portfolio_third__project__description" class="portfolio__desctiption">Simple yet very funny!</p>
+                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://e-shop-firebase.vercel.app/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Try it
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/CursoCoderReact.git" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                GitHub
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
                             </div>
                         </div>
     
@@ -373,14 +376,14 @@
                             <img src="/assets/img/weatherApp.png" alt="" class="portfolio__img">
     
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Weather app</h3>
-                                <p class="portfolio__desctiption">Look up the weather of any city on the planet</p>
-                                <a href="https://weather-app-iota-amber.vercel.app/" target="_blank"
+                                <h3 data-section="portfolio_data" data-value="portfolio_fourth__project__title" class="portfolio__title">Weather app</h3>
+                                <p data-section="portfolio_data" data-value="portfolio_fourth__project__description" class="portfolio__desctiption">Look up the weather of any city on the planet</p>
+                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://e-shop-firebase.vercel.app/" target="_blank"
                                     class="button button--flex button--small portfolio__button">
                                     Try it
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
-                                <a href="https://github.com/AntonioPiattiFadda/weather-app" target="_blank"
+                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/CursoCoderReact.git" target="_blank"
                                     class="button button--flex button--small portfolio__button">
                                     GitHub
                                     <i class="uil uil-arrow-right button__icon"></i>
@@ -392,18 +395,18 @@
                             <img src="/assets/img/Task.png" alt="" class="portfolio__img">
     
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">Task App</h3>
-                                <p class="portfolio__desctiption">Write down your tasks!</p>
-                                <a href="https://task-app-beta.vercel.app/" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Try it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a href="https://github.com/AntonioPiattiFadda/task-app" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
+                                <h3 data-section="portfolio_data" data-value="portfolio_fifth__project__title" class="portfolio__title">Task application</h3>
+                                <p data-section="portfolio_data" data-value="portfolio_fifth__project__description" class="portfolio__desctiption">Write your tasks and they persist in local storage!</p>
+                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://e-shop-firebase.vercel.app/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Try it
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/CursoCoderReact.git" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                GitHub
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
                             </div>
                         </div>
     
@@ -411,14 +414,14 @@
                             <img src="/assets/img/eShop.png" alt="" class="portfolio__img">
     
                             <div class="portfolio__data">
-                                <h3 class="portfolio__title">E-Shop</h3>
-                                <p class="portfolio__desctiption">E-Shop done with Next</p>
-                                <a href="https://e-commerce-next-murex.vercel.app/" target="_blank"
+                                <h3 data-section="portfolio_data" data-value="portfolio_sixth__project__title"  class="portfolio__title">E-Shop</h3>
+                                <p data-section="portfolio_data" data-value="portfolio_sixth__project__title"  class="portfolio__desctiption">E-Shop done with Next.js</p>
+                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://e-shop-firebase.vercel.app/" target="_blank"
                                     class="button button--flex button--small portfolio__button">
                                     Try it
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
-                                <a href="https://github.com/AntonioPiattiFadda/e-commerce.Next" target="_blank"
+                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/CursoCoderReact.git" target="_blank"
                                     class="button button--flex button--small portfolio__button">
                                     GitHub
                                     <i class="uil uil-arrow-right button__icon"></i>
@@ -446,8 +449,8 @@
             </section>
     
             <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
-                <span class="section__subtitle">Get in touch</span>
+                <h2 data-section="contact_data" data-value="contact_title" class="section__title">Contact Me</h2>
+                <span data-section="contact_data" data-value="contact_subtitle" class="section__subtitle">Get in touch</span>
     
                 <div class="contact__container container grid">
                     <div>
@@ -455,7 +458,7 @@
                             <i class="uil uil-phone contact__icon"></i>
     
                             <div>
-                                <h3 class="contact title">Call Me</h3>
+                                <h3 data-section="contact_data" data-value="contact_phone__number" class="contact title">Phone number</h3>
                                 <span class="contact__subtitle">(351)6-192831</span>
                             </div>
                         </div>
@@ -473,7 +476,7 @@
                             <i class="uil uil-map-marker-alt contact__icon"></i>
     
                             <div>
-                                <h3 class="contact title">Location</h3>
+                                <h3 data-section="contact_data" data-value="contact_location" class="contact title">Location</h3>
                                 <span class="contact__subtitle">Cordoba (Argentina)</span>
                             </div>
                         </div>
@@ -482,25 +485,25 @@
                     <form id="form" class="contact__form grid">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
+                                <label data-section="contact_data" data-value="contact_form__name" for="" class="contact__label">Name</label>
                                 <input type="text" name="name" class="contact__input" required>
                             </div>
                             <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
+                                <label  for="" class="contact__label">Email</label>
                                 <input type="email" name="mail" class="contact__input" required>
                             </div>
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Project</label>
+                            <label data-section="contact_data" data-value="contact_form__project" for="" class="contact__label">Project</label>
                             <input type="text" name="project" class="contact__input">
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
+                            <label data-section="contact_data" data-value="contact_form__message" for="" class="contact__label">Message</label>
                             <textarea  name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
                         </div>
     
                         <div>
-                            <button id="button" type="submit" class="button button--flex button__scroll-reveal contact__content-icon">
+                            <button data-section="contact_data" data-value="contact_form__button" id="button" type="submit" class="button button--flex button__scroll-reveal contact__content-icon">
                                 Send message
                                 <i class="uil uil-message button__icon"></i>
                             </button>
@@ -527,10 +530,10 @@
     
                     <ul class="footer__links">
                         <li>
-                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                            <a data-section="footer__data" data-value="footer_portfolio" href="#portfolio" class="footer__link">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#contact" class="footer__link">Contact me</a>
+                            <a data-section="footer__data" data-value="footer_contact" href="#contact" class="footer__link">Contact me</a>
                         </li>
                     </ul>
     
