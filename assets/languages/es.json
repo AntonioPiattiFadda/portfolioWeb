@@ -15,7 +15,7 @@
   "about_data": {
     "about_title": "Acerca de mi",
     "about_subtitle": "Mi introduccion",
-    "about_description": "He desarrollado una gran pasión por la tecnología desde chico. Siempre he estado interesado en actividades relacionadas con la tecnología, desde jugar videojuegos hasta instalar programas y sistemas operativos. Estoy entusiasmado por aprender más sobre este increíble campo y estoy abierto a las oportunidades que impliquen crecer en esta industria.",
+    "about_description": "He desarrollado una gran pasión por la tecnología desde chico. Siempre he estado interesado en actividades relacionadas con las computadoras, desde jugar videojuegos hasta instalar programas y sistemas operativos. Estoy entusiasmado por aprender más sobre este increíble campo y estoy abierto a las oportunidades que impliquen crecer en esta industria.",
     "about_button": "Descargar CV  <i class='uil uil-download-alt button__icon'></i>"
   },
   "skills_data": {
@@ -41,7 +41,7 @@
     "portfolio_title": "Portfolio",
     "portfolio_subtitle": "Proyectos recientes",
     "portfolio_first__project__title": "E-Shop con Firebase",
-    "portfolio_first__project__description": "Plataforma de e-commerce intuitiva hecha con Firebase",
+    "portfolio_first__project__description": "Plataforma de e-commerce intuitiva hecha con Firebase.",
     "portfolio_second__project__title": "Product's API",
     "portfolio_second__project__description": "Fácil integración con cualquier aplicación.",
     "portfolio_third__project__title": "Ta - Te - Ti",
@@ -52,6 +52,8 @@
     "portfolio_fifth__project__description": "Escribe tus tareas y persisten en el local storage!",
     "portfolio_sixth__project__title": "E-Shop",
     "portfolio_sixth__project__description": "E-Shop hecho con Next.js",
+    "portfolio_seventh__project__title": "Clon de Google translate",
+    "portfolio_seventh__project__description": "Traduce al instante palabras y frases.",
     "portfolio_first__button": "Probar <i class='uil uil-arrow-right button__icon'></i>",
     "portfolio_second__button": "GitHub <i class='uil uil-arrow-right button__icon'></i>"
   },

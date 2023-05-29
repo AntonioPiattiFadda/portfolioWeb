@@ -52,6 +52,8 @@
     "portfolio_fifth__project__description": "Write your tasks and they persist in local storage!",
     "portfolio_sixth__project__title": "E-Shop",
     "portfolio_sixth__project__description": "E-Shop done with Next.js",
+    "portfolio_seventh__project__title": "Google translate clone",
+    "portfolio_seventh__project__description": "Instantly translate words and phrases.",
     "portfolio_first__button": "Try it <i class='uil uil-arrow-right button__icon'></i>",
     "portfolio_second__button": "GitHub <i class='uil uil-arrow-right button__icon'></i>"
   },
