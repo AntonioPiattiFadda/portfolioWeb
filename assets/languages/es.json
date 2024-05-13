@@ -40,8 +40,8 @@
   "portfolio_data": {
     "portfolio_title": "Portfolio",
     "portfolio_subtitle": "Proyectos recientes",
-    "portfolio_first__project__title": "E-Shop con Firebase",
-    "portfolio_first__project__description": "Plataforma de e-commerce intuitiva hecha con Firebase.",
+    "portfolio_first__project__title": "Aplicación de facturas",
+    "portfolio_first__project__description": "Crea facturas y págalas con Stripe o Ethereum.",
     "portfolio_second__project__title": "Product's API",
     "portfolio_second__project__description": "Fácil integración con cualquier aplicación.",
     "portfolio_third__project__title": "Ta - Te - Ti",
@@ -60,6 +60,8 @@
     "portfolio_ninth__project__description": "Permanece actualizado, vende de forma más inteligente.",
     "portfolio_tenth__project__title": "Pediclick E-commerce",
     "portfolio_tenth__project__description": "Con Pediclick, recibe actualizaciones precisas de tus pedidos directamente en WhatsApp.",
+    "portfolio_eleventh__project__title": "Workout App",
+    "portfolio_eleventh__project__description": "Aplicación de entrenamiento personalizada.",
     "portfolio_first__button": "Probar <i class='uil uil-arrow-right button__icon'></i>",
     "portfolio_second__button": "GitHub <i class='uil uil-arrow-right button__icon'></i>"
   },

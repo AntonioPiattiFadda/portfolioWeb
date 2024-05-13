@@ -40,8 +40,8 @@
   "portfolio_data": {
     "portfolio_title": "Portfolio",
     "portfolio_subtitle": "Most recent projects",
-    "portfolio_first__project__title": "E-Shop with Firebase",
-    "portfolio_first__project__description": "Intuitive E-Commerce Platform with Firebase.",
+    "portfolio_first__project__title": "Invoices App",
+    "portfolio_first__project__description": "Create and pay invoices with Stripe or Ethereum.",
     "portfolio_second__project__title": "Product's API",
     "portfolio_second__project__description": "Easy Integration for any application.",
     "portfolio_third__project__title": "Tic -Tac -Toe",
@@ -60,6 +60,8 @@
     "portfolio_ninth__project__description": "Stay updated, sell smarter.",
     "portfolio_tenth__project__title": "Pediclick E-commerce",
     "portfolio_tenth__project__description": "With Pediclick, get precise order updates delivered straight to your WhatsApp.",
+    "portfolio_eleventh__project__title": "Workout App",
+    "portfolio_eleventh__project__description": "Create your workout routines.",
     "portfolio_first__button": "Try it <i class='uil uil-arrow-right button__icon'></i>",
     "portfolio_second__button": "GitHub <i class='uil uil-arrow-right button__icon'></i>"
   },
