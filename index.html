@@ -25,11 +25,11 @@
                                 <i class="uil uil-estate nav__icon-img"></i> Home
                             </a>
                         </li>
-                        <li class="nav__item">
+                        <!-- <li class="nav__item">
                             <a href="#about" data-section="nav_data" data-value="nav_about" class="nav__link nav__icon">
                                 <i class="uil uil-user nav__icon-img"></i> About
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav__item">
                             <a href="#skills" data-section="nav_data" data-value="nav_skills" class="nav__link nav__icon">
                                 <i class="uil uil-file-alt nav__icon-img"></i> Skills
@@ -78,9 +78,11 @@
                         </div>
     
                         <div class="home__img">
-                            <img src="./assets/img/Vector1.png" alt="Blob Image" class="home__blob home__blob-1">
+                            <!-- <img src="./assets/img/Vector1.png" alt="Blob Image" class="home__blob home__blob-1">
                             <img src="./assets/img/Vector2.png" alt="Blob Image" class="home__blob home__blob-2">
-                            <img src="https://i.postimg.cc/Z5JkJdtB/IMG-1272-removebg-preview.png" alt="toni-foto" class="home__blob-img">
+                            <img src="./assets/img/toniFoto2.png" alt="toni-foto" class="home__blob-img"> -->
+                            <img src="./assets/img/toniFoto1.jpg" alt="" class="about__img">
+
                         </div>
                    
                         <div class="home__data">
@@ -112,7 +114,7 @@
             </section>
     
     
-            <section class="about section" id="about">
+            <!-- <section class="about section" id="about">
                 <h2 data-section="about_data" data-value="about_title" class="section__title">About Me</h2>
                 <span data-section="about_data" data-value="about_subtitle" class="section__subtitle">My introduction</span>
     
@@ -133,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
     
     
             <section class="skills section" id="skills">
@@ -206,8 +208,12 @@
                                     <img src="./assets/png/icons8-sql-32.png"></img>
                                     <span> SQL </span>
                                 </div>
-
-    
+                                
+                                <div class="skills__data">
+                                    <img class="firebaseImg" src="https://tse4.mm.bing.net/th?id=OIP.JktK87FL_sqDDnuxHxe6FwAAAA&pid=Api&P=0&h=180
+                                    "></img>
+                                    <span>Firebase  </span>
+                                </div>                                
                             </div>
                         </div>
     
@@ -298,6 +304,7 @@
                                         March - 2023
                                     </div>
                                 </div>
+
     
     
                             </div>
@@ -314,6 +321,26 @@
     
                 <div class="portfolio__container container swiper-container">
                     <div class="swiper-wrapper">
+                        
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="./assets/img/matterApp.png" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 data-section="portfolio_data" data-value="portfolio_first__project__title" class="portfolio__title">Invoices manager</h3>
+                                <p data-section="portfolio_data" data-value="portfolio_first__project__description"  class="portfolio__desctiption">Create and pay invoices with Stripe or Ethereum</p>
+                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://matter-tau.vercel.app/" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Try it
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/matter" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    GitHub
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
 
                         <div class="portfolio__content grid swiper-slide">
                             <img src="https://res.cloudinary.com/dm8b2resp/image/upload/v1702488370/Pediclick%20Website/pulse_website_screen_puozzq.png" alt="" class="portfolio__img">
@@ -335,17 +362,55 @@
                         </div>
 
                         <div class="portfolio__content grid swiper-slide">
+                            <img src="https://res.cloudinary.com/dm8b2resp/image/upload/v1702488826/Pediclick%20Website/Pediclick_e-commerce_screenshot_ku6mqb.png" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 data-section="portfolio_data" data-value="portfolio_tenth__project__title" class="portfolio__title">Pediclick E-commerce</h3>
+                                <p data-section="portfolio_data" data-value="portfolio_tenth__project__description" class="portfolio__desctiption">With Pediclick, get precise order updates delivered straight to your WhatsApp.</p>
+                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://interface-cliente-react-os.vercel.app/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Try it
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/interface-cliente-react-OS" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                GitHub
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="./assets//img/adminInterface.png" alt="google translate screenshot" class="portfolio__img">
     
                             <div class="portfolio__data">
                                 <h3 data-section="portfolio_data" data-value="portfolio_eighth__project__title" class="portfolio__title">EshopAdmin: Simplify Ecommerce Management</h3>
                                 <p data-section="portfolio_data" data-value="portfolio_eighth__project__description"  class="portfolio__desctiption">Unlock the full potential of your e-shop with our powerful and customizable Admin Interface.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://admin-eshop-production.up.railway.app/dashboard" target="_blank"
+                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://admin-eshop-eight.vercel.app/dashboard" target="_blank"
                                     class="button button--flex button--small portfolio__button">
                                     Try it
                                     <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
                                 <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/admin-eshop" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    GitHub
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="./assets//img/kine-app.png" alt="google translate screenshot" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 data-section="portfolio_data" data-value="portfolio_seventh__project__title" class="portfolio__title">Workout App</h3>
+                                <p data-section="portfolio_data" data-value="portfolio_seventh__project__description"  class="portfolio__desctiption">Create your workout routines.</p>
+                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://kine-app-client.vercel.app/" target="_blank"
+                                    class="button button--flex button--small portfolio__button">
+                                    Try it
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/kine-app-client" target="_blank"
                                     class="button button--flex button--small portfolio__button">
                                     GitHub
                                     <i class="uil uil-arrow-right button__icon"></i>
@@ -372,28 +437,11 @@
                             </div>
                         </div>
 
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="https://i.postimg.cc/Bn3mSZxX/Sin-t-tulo.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_first__project__title" class="portfolio__title">E-Shop with Firebase</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_first__project__description"  class="portfolio__desctiption">Intuitive E-Commerce Platform with Firebase.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://e-shop-firebase.vercel.app/" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Try it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/CursoCoderReact.git" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        
+                      
+
                         
 
-                        <div class="portfolio__content grid swiper-slide">
+                        <!-- <div class="portfolio__content grid swiper-slide">
                             <img src="https://i.postimg.cc/gjnvsJfk/Sin-t-tulo.png" alt="" class="portfolio__img">
     
                             <div class="portfolio__data">
@@ -410,8 +458,8 @@
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                             </div>
-                        </div>
-    
+                        </div> -->
+<!--     
                         <div class="portfolio__content grid swiper-slide">
                             <img src="/assets/img/tic-tac-toe.png" alt="" class="portfolio__img">
     
@@ -429,7 +477,7 @@
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                             </div>
-                        </div>
+                        </div> -->
     
                         <!-- <div class="portfolio__content grid swiper-slide">
                             <img src="/assets/img/weatherApp.png" alt="" class="portfolio__img">
@@ -450,7 +498,7 @@
                             </div>
                         </div> -->
     
-                        <div class="portfolio__content grid swiper-slide">
+                        <!-- <div class="portfolio__content grid swiper-slide">
                             <img src="/assets/img/Task.png" alt="" class="portfolio__img">
     
                             <div class="portfolio__data">
@@ -467,28 +515,11 @@
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                             </div>
-                        </div>
+                        </div> -->
 
                        
 
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="https://res.cloudinary.com/dm8b2resp/image/upload/v1702488826/Pediclick%20Website/Pediclick_e-commerce_screenshot_ku6mqb.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_tenth__project__title" class="portfolio__title">Pediclick E-commerce</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_tenth__project__description" class="portfolio__desctiption">With Pediclick, get precise order updates delivered straight to your WhatsApp.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://interface-cliente-react-os.vercel.app/" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Try it
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/client-interface-order-solutions.git" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                GitHub
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div>
+                      
     
     
                         <!-- <div class="portfolio__content grid swiper-slide">
@@ -574,10 +605,10 @@
                                 <input type="email" name="mail" class="contact__input" required>
                             </div>
                         </div>
-                        <div class="contact__content">
+                        <!-- <div class="contact__content">
                             <label data-section="contact_data" data-value="contact_form__project" for="" class="contact__label">Project</label>
                             <input type="text" name="project" class="contact__input">
-                        </div>
+                        </div> -->
                         <div class="contact__content">
                             <label data-section="contact_data" data-value="contact_form__message" for="" class="contact__label">Message</label>
                             <textarea  name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
@@ -630,7 +661,6 @@
                     </div>
                 </div>
     
-                <p class="footer__copy">© Antonio Piatti Fadda. All right reserved.</p>
             </div>
         </footer>
     
