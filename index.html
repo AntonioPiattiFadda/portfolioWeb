@@ -6,7 +6,9 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <link rel="stylesheet" href="./assets/css//swiper-bundle.min.css">
         <link rel="stylesheet" href="/assets/css/styles.css">
-        <title>Antonio Piatti Fadda</title>
+        <link rel="icon" href="./assets//icons/AntonioSign.png" type="image/x-icon">
+
+        <title>Portfolio Antonio Piatti Fadda</title>
     </head>
     
     <body>
@@ -14,8 +16,8 @@
             <nav class="nav container">
                 <a href="#" class="nav__logo">Antonio</a>
                 <div class="nav__flags__container">
-                    <img  class="traductionBtn nav__flags"   data-language="en" class="nav__flags" src="./assets/png/united-states-of-america.png" alt="United States's flag">
-                    <img class="traductionBtn nav__flags" data-language="es" class="nav__flags" src="./assets/png/spain.png" alt="Spain's flag">
+                    <img class="traductionBtn nav__flags" data-language="en" src="./assets/png/united-states-of-america.png" alt="United States's flag">
+                    <img class="traductionBtn nav__flags" data-language="es" src="./assets/png/spain.png" alt="Spain's flag">
                 </div>
                 
                 <div class="nav__menu" id="nav-menu">
@@ -25,35 +27,21 @@
                                 <i class="uil uil-estate nav__icon-img"></i> Home
                             </a>
                         </li>
-                        <!-- <li class="nav__item">
-                            <a href="#about" data-section="nav_data" data-value="nav_about" class="nav__link nav__icon">
-                                <i class="uil uil-user nav__icon-img"></i> About
-                            </a>
-                        </li> -->
-                        <li class="nav__item">
-                            <a href="#skills" data-section="nav_data" data-value="nav_skills" class="nav__link nav__icon">
-                                <i class="uil uil-file-alt nav__icon-img"></i> Skills
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#qualification" data-section="nav_data" data-value="nav_qualifications" class="nav__link nav__icon">
-                                <i class="uil uil-book-open nav__icon-img"></i> Qualification
-                            </a>
-                        </li>
                         <li class="nav__item">
                             <a href="#portfolio" data-section="nav_data" data-value="nav_portfolio" class="nav__link nav__icon">
                                 <i class="uil uil-scenery nav__icon-img"></i> Portfolio
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#contact" data-section="nav_data" data-value="nav_contact" class="nav__link nav__icon">
-                                <i class="uil uil-message nav__icon-img"></i> Contact
+                            <a href="#experience" data-section="nav_data" data-value="nav_qualifications" class="nav__link nav__icon">
+                              
+                                <i class="uil uil-briefcase nav__icon-img"></i> Experience
                             </a>
                         </li>
                     </ul>
                     <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
-    
+        
                 <div class="nav__btns">
                     <div class="nav__toogle" id="nav-toogle">
                         <i class="uil uil-apps"></i>
@@ -63,6 +51,14 @@
         </header>
     
         <main class="main">
+
+            <div class="whatsapp__container__fixed">
+                <a href="https://api.whatsapp.com/send?phone=5493516192831&text=Hello%20Antonio,%20I'm%20interested%20in%20" target="_blank" class="whatsapp__container">
+                    <img src="./assets/img/WhatsApp.png" alt="WhatsApp" class="whatsapp__img">
+                </a>
+            </div> 
+
+ 
             <section class="home section" id="home">
                 <div class="home__container container grid">
                     <div class="home__content grid">
@@ -78,10 +74,8 @@
                         </div>
     
                         <div class="home__img">
-                            <!-- <img src="./assets/img/Vector1.png" alt="Blob Image" class="home__blob home__blob-1">
-                            <img src="./assets/img/Vector2.png" alt="Blob Image" class="home__blob home__blob-2">
-                            <img src="./assets/img/toniFoto2.png" alt="toni-foto" class="home__blob-img"> -->
-                            <img src="https://res.cloudinary.com/dm8b2resp/image/upload/v1715798962/Imagen_de_WhatsApp_2024-05-15_a_las_15.26.16_4cb45de5_hr5ofu.jpg" alt="" class="about__img">
+                            
+                            <img src="./assets/img/AntonioCv.jpg" alt="" class="about__img">
 
                         </div>
                    
@@ -89,16 +83,18 @@
                             <h1 class="home__title" data-section="home_data" data-value="home_title"">Hi, I'm Antonio</h1>
                             <h3 class="home__subtitle">Full Stack Developer</h3>
                             <p  data-section="home_data" data-value="home__description" class="home__description">
-                                28 years old. </br>                            Córdoba, Argentina.
+                             
+                                                            Córdoba, Argentina.
                             </p>
 
-                            <a href="#contact" data-section="home_data" data-value="home_button" class="button button--flex button__scroll-reveal home__contact-icon">
-                                Contact Me<i class="uil uil-message button__icon"></i>
+                            <a href="mailto:antonio.piattifadda@gmail.com" data-section="home_data" data-value="home_button" class="button button--flex button__scroll-reveal home__contact-icon">
+                                Contact Me <i class="uil uil-envelope button__icon"></i>
+
                             </a>
                         </div>
     
                         <div class="home__scroll">
-                            <a href="#about" class="home__scroll-button button--flex">
+                            <a href="#portfolio" class="home__scroll-button button--flex">
                                 <i class="uil uil-mouse-alt home__scroll-mouse"></i>
                                 <span class="home scroll-name">Scroll down</span>
                                 <i class="uil uil-arrow-down home__scroll-arrow"></i>
@@ -111,286 +107,339 @@
     
     
                 </div>
-            </section>
-    
-    
-            <!-- <section class="about section" id="about">
-                <h2 data-section="about_data" data-value="about_title" class="section__title">About Me</h2>
-                <span data-section="about_data" data-value="about_subtitle" class="section__subtitle">My introduction</span>
-    
-                <div class="about__container container grid">
-                    <img src="./assets/img/toniFoto1.jpg" alt="" class="about__img">
-    
-                    <div class="about__data">
-                        <p  data-section="about_data" data-value="about_description" class="about__description">
-                            I have developed a passion for technology since I was a child. My interests have always been related to how computers work. From an early age, I became interested in different techology-related activities, from playing games to installing programs and OS. I’m eager to learn more about this amazing field and I’m open to the opportunities that implies learning and growing in this industry.                         </p>
-                        <div class="about__info">
-    
-                            <div class="about__buttons">
-                                <a data-section="about_data" data-value="about_button"  download="" href="assets/pdf/CvPiattiFaddaAntonio.pdf"
-                                    class="button button--flex button__scroll-reveal"> Download CV
-                                    <i class="uil uil-download-alt button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
+            </section> 
+     
             <section class="portfolio section" id="portfolio">
                 <h2 data-section="portfolio_data" data-value="portfolio_title"  class="section__title">Portfolio</h2>
                 <span data-section="portfolio_data" data-value="portfolio_subtitle" class="section__subtitle">Most recent projects</span>
-    
-                <div class="portfolio__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets/img/matterApp.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_first__project__title" class="portfolio__title">Invoices App</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_first__project__description"  class="portfolio__desctiption">Create and pay invoices with Stripe or Ethereum.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://matter-tau.vercel.app/" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Try it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/matter" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
+                <div class="portfolio__container container grid">
+           
+
+                    <div class="card">
+                      <div class="card__flipper">
+                        <div class="card__face card__face--front">
+                          <img src="./assets/img/popsite-image.png" alt="Website builder" class="card__image">
+                          <div class="card__content">
+                              <p class="card__description">Backend & Frontend</p>
+                            <h3 class="card__title">Pop Site website  </br> builder</h3>
+                            <div class="card__tags">
+                              <span class="card__tag">React</span>
+                              <span class="card__tag">Firebase</span>
+                              <span class="card__tag">Tailwind</span>
+                              <span class="card__tag">Vercel</span>
+                              <span class="card__tag">Stripe</span>
+                              <span class="card__tag">Node</span>
+                            
                             </div>
+                          </div>
+                          <div class="card__badge">
+                            <div class="card__tech-icons">
+                              <div class="card__tech-icon">
+                                <img src="./assets/icons/react.svg" alt="React Icon">
+                              </div>
+                              <div class="card__tech-icon">
+                                <img src="./assets/icons/firebase.png" alt="Firebase icon">
+                              </div>
+                              <div class="card__tech-icon">
+                                <img src="./assets/icons/stripe.png" alt="Stripe icon">
+                              </div>
+                              <div class="card__tech-icon">
+                                <img src="./assets/icons/vercel.png" alt="Vercel icon">
+                              </div>
+                              <div class="card__tech-icon">
+                                <img src="./assets/icons/Node.png" alt="Node icon">
+                              </div>
+                              <div class="card__tech-icon">
+                                <img src="./assets/icons/tailwind.png" alt="Tailwind icon">
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                        
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="https://res.cloudinary.com/dm8b2resp/image/upload/v1702488370/Pediclick%20Website/pulse_website_screen_puozzq.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_ninth__project__title" class="portfolio__title">Pediclick Website</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_ninth__project__description" class="portfolio__desctiption">Stay updated, sell smarter.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://pediclick.dreamhosters.com/" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Try it
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/pediclick-website.git" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                GitHub
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="https://res.cloudinary.com/dm8b2resp/image/upload/v1702488826/Pediclick%20Website/Pediclick_e-commerce_screenshot_ku6mqb.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_tenth__project__title" class="portfolio__title">Pediclick E-commerce</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_tenth__project__description" class="portfolio__desctiption">With Pediclick, get precise order updates delivered straight to your WhatsApp.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://interface-cliente-react-os.vercel.app/" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Try it
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/interface-cliente-react-OS" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                GitHub
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets//img/adminInterface.png" alt="google translate screenshot" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_eighth__project__title" class="portfolio__title">EshopAdmin: Simplify Ecommerce Management</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_eighth__project__description"  class="portfolio__desctiption">Unlock the full potential of your e-shop with our powerful and customizable Admin Interface.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://admin-eshop-eight.vercel.app/dashboard" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Try it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/admin-eshop" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets//img/kine-app.png" alt="workout app screenshot" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_eleventh__project__title" class="portfolio__title">Workout App</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_eleventh__project__description"  class="portfolio__desctiption">Create your workout routines.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://kine-app-client.vercel.app/" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Try it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/kine-app-client" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="./assets//img/googleTranslate.png" alt="google translate screenshot" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_seventh__project__title" class="portfolio__title">Google Translate Clone</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_seventh__project__description"  class="portfolio__desctiption">Instantly translate words and phrases.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://google-translate-iota.vercel.app/" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Try it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/googleTranslate.git" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                      
-
-                        
-
-                        <!-- <div class="portfolio__content grid swiper-slide">
-                            <img src="https://i.postimg.cc/gjnvsJfk/Sin-t-tulo.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_second__project__title"  class="portfolio__title">Product's API</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_second__project__description"  class="portfolio__desctiption">Easy Integration for any application.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://back-end-express-postgres1.vercel.app/api/v1/products" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Try it
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/BackEnd-ExpressPostgres1" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                GitHub
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div> -->
-<!--     
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="/assets/img/tic-tac-toe.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_third__project__title" class="portfolio__title">Tic -Tac -Toe</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_third__project__description" class="portfolio__desctiption">Simple yet very funny.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://tic-tac-toe-git-main-antoniopiattifadda.vercel.app/" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Try it
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/Tic-Tac-Toe" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                GitHub
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div> -->
-    
-                        <!-- <div class="portfolio__content grid swiper-slide">
-                            <img src="/assets/img/weatherApp.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_fourth__project__title" class="portfolio__title">Weather app</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_fourth__project__description" class="portfolio__desctiption">Look up the weather of any city on the planet</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://weather-app-git-main-antoniopiattifadda.vercel.app/" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Try it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/weather-app" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div> -->
-    
-                        <!-- <div class="portfolio__content grid swiper-slide">
-                            <img src="/assets/img/Task.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_fifth__project__title" class="portfolio__title">Task application</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_fifth__project__description" class="portfolio__desctiption">Write your tasks and they persist in local storage.</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://task-app-beta.vercel.app/" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Try it
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/task-app" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                GitHub
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                            </div>
-                        </div> -->
-
+                        <div class="card__face card__face--back">
+                            <div class="card__badge--back">
+                                <div class="card__tech-icons--back">
+                                    <div class="card__tech-icon">
+                                        <img src="./assets/icons/react.svg" alt="React Icon">
+                                      </div>
+                                      <div class="card__tech-icon">
+                                        <img src="./assets/icons/firebase.png" alt="Firebase icon">
+                                      </div>
+                                      <div class="card__tech-icon">
+                                        <img src="./assets/icons/stripe.png" alt="Stripe icon">
+                                      </div>
+                                      <div class="card__tech-icon">
+                                        <img src="./assets/icons/vercel.png" alt="Vercel icon">
+                                      </div>
+                                      <div class="card__tech-icon">
+                                        <img src="./assets/icons/Node.png" alt="Node icon">
+                                      </div>
+                                      <div class="card__tech-icon">
+                                        <img src="./assets/icons/tailwind.png" alt="Tailwind icon">
+                                      </div>
+                                </div>
+                              </div>
+                         
+                            
+                         
+                            <h3 class="card__title">Pop Site website builder</h3>
                        
+                            <p class="card__description">Modern SaaS platform with Firebase backend for real-time data storage and user authentication.
+                            </p>
+                            <p class="card__description">Payment processing through Stripe integration, handling subscriptions and automated billing workflows.</p>
+                            <p class="card__description">UI built with React and Tailwind CSS, featuring continuous deployment to Vercel for instant updates when code changes are pushed.</p>
 
-                      
-    
-    
-                        <!-- <div class="portfolio__content grid swiper-slide">
-                            <img src="/assets/img/eShop.png" alt="" class="portfolio__img">
-    
-                            <div class="portfolio__data">
-                                <h3 data-section="portfolio_data" data-value="portfolio_sixth__project__title"  class="portfolio__title">E-Shop</h3>
-                                <p data-section="portfolio_data" data-value="portfolio_sixth__project__title"  class="portfolio__desctiption">E-Shop done with Next.js</p>
-                                <a data-section="portfolio_data" data-value="portfolio_first__button" href="https://e-commerce-next-git-main-antoniopiattifadda.vercel.app/" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    Try it
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                                <a data-section="portfolio_data" data-value="portfolio_second__button" href="https://github.com/AntonioPiattiFadda/e-commerce.Next" target="_blank"
-                                    class="button button--flex button--small portfolio__button">
-                                    GitHub
-                                    <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
+                            <div class="card__buttons--back">
+                                <a class="card__button--back" href="https://app.pop.site/" target="_blank">
+                                    <img src="./assets/png/source.png">
+                                    
+                                    Live Application</a>
+                                    <span></span>
+                            
                             </div>
-                        </div> -->
-    
-    
+                        </div>
+                      </div>
                     </div>
-    
-    
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+
+
+ <div class="card">
+    <div class="card__flipper">
+      <div class="card__face card__face--front">
+        <img src="./assets/img/crm-groweb.png" alt="CRM groweb" class="card__image">
+        <div class="card__content">
+            <p class="card__description">Backend & Frontend</p>
+          <h3 class="card__title">CRM for real state </br> agencies</h3>
+          <div class="card__tags">
+              <span class="card__tag">React</span>
+            <span class="card__tag">Supabase</span>
+            <span class="card__tag">Tailwind</span>
+            <span class="card__tag">Shadcn Ui</span>
+          </div>
+        </div>
+        <div class="card__badge">
+          <div class="card__tech-icons">
+            <div class="card__tech-icon">
+              <img src="./assets/icons/react.svg" alt="React Icon">
+            </div>
+            <div class="card__tech-icon">
+              <img src="./assets/icons/tailwind.png" alt="Tailwind icon">
+            </div>
+            <div class="card__tech-icon">
+              <img src="./assets/icons/supabase.png" alt="Supabase icon">
+            </div>
+            <div class="card__tech-icon">
+                <img src="./assets/icons/shadcnui.png" alt="Shadcnui icon">
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="card__face card__face--back">
+          <div class="card__badge--back">
+              <div class="card__tech-icons--back">
+                <div class="card__tech-icon">
+                    <img src="./assets/icons/react.svg" alt="React Icon">
+                  </div>
+                  <div class="card__tech-icon">
+                    <img src="./assets/icons/tailwind.png" alt="Tailwind icon">
+                  </div>
+                  <div class="card__tech-icon">
+                    <img src="./assets/icons/supabase.png" alt="Supabase icon">
+                  </div>
+                  <div class="card__tech-icon">
+                      <img src="./assets/icons/shadcnui.png" alt="Shadcnui icon">
                     </div>
-    
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+              </div>
+            </div>
+          <div class="card__tags-back">
+          
+          
+          </div>
+          <h3 class="card__title">CRM for real state agencies</h3>
+     
+      
+     
+        <p class="card__description">
+            User authentication and authorization with supabase, allowing users to create and manage their own accounts.
+
+        </p>
+
+        <p class="card__description">
+            Integration with google maps api to manege properties location and drag and drop gallery to manege you photos.</p>
+            </p>
+
+          <div class="card__buttons--back">
+              <a class="card__button--back" href="https://crm-groweb.vercel.app/" target="_blank">
+                <img src="./assets/png/source.png">
+                  Live Application</a>
+          
+          </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+ <div class="card">
+    <div class="card__flipper">
+      <div class="card__face card__face--front">
+        <img src="./assets/img/LottoWin.png" alt="CRM groweb" class="card__image">
+        <div class="card__content">
+            <p class="card__description">Backend & Frontend</p>
+          <h3 class="card__title">Lottowin Crypto Lottery </h3>
+          <div class="card__tags">
+              <span class="card__tag">React</span>
+            <span class="card__tag">Node</span>
+            <span class="card__tag">Metamask</span>
+            <span class="card__tag">Tailwind</span>
+            <span class="card__tag">Shadcn Ui</span>
+          </div>
+        </div>
+        <div class="card__badge">
+          <div class="card__tech-icons">
+            <div class="card__tech-icon">
+              <img src="./assets/icons/react.svg" alt="React Icon">
+            </div>
+            <div class="card__tech-icon">
+              <img src="./assets/icons/Node.png" alt="Tailwind icon">
+            </div>
+            <div class="card__tech-icon">
+              <img src="./assets/icons/metamask.png" alt="Supabase icon">
+            </div>
+            <div class="card__tech-icon">
+                <img src="./assets/icons/tailwind.png" alt="Shadcnui icon">
+              </div>
+              <div class="card__tech-icon">
+                <img src="./assets/icons/shadcnui.png" alt="Shadcnui icon">
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="card__face card__face--back">
+          <div class="card__badge--back">
+              <div class="card__tech-icons--back">
+                <div class="card__tech-icon">
+                    <img src="./assets/icons/react.svg" alt="React Icon">
+                  </div>
+                  <div class="card__tech-icon">
+                    <img src="./assets/icons/Node.png" alt="Tailwind icon">
+                  </div>
+                  <div class="card__tech-icon">
+                    <img src="./assets/icons/metamask.png" alt="Supabase icon">
+                  </div>
+                  <div class="card__tech-icon">
+                      <img src="./assets/icons/tailwind.png" alt="Shadcnui icon">
                     </div>
+                    <div class="card__tech-icon">
+                      <img src="./assets/icons/shadcnui.png" alt="Shadcnui icon">
+                    </div>
+              </div>
+            </div>
+          <div class="card__tags-back">
+          
+          
+          </div>
+          <h3 class="card__title">Lottowin Crypto Lottery</h3>
+     
+          <p class="card__description">
+            A decentralized lottery application powered by a custom backend and smart contracts. Users connect via MetaMask to create or join lottery games. 
+          </p>
+          
+          <p class="card__description">The backend, built in Node.js, manages game logic, player entries, and prize distribution, ensuring a secure and transparent experience on the blockchain.</p>
+    
+
+          <div class="card__buttons--back">
+              <a class="card__button--back" href="" target="_blank">
+                  <img src="./assets/png/youtube.png"></img>
+                  Demo Video</a>
+             
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+ <div class="card">
+    <div class="card__flipper">
+      <div class="card__face card__face--front">
+        <img src="./assets/img/matterApp.png" alt="CRM groweb" class="card__image">
+        <div class="card__content">
+            <p class="card__description">Backend & Frontend</p>
+          <h3 class="card__title">Matter App Invoice </br> Builder </h3>
+          <div class="card__tags">
+              <span class="card__tag">React</span>
+            <span class="card__tag">Firebase</span>
+            <span class="card__tag">Metamask</span>
+            <span class="card__tag">Stripe</span>
+          </div>
+        </div>
+        <div class="card__badge">
+          <div class="card__tech-icons">
+            <div class="card__tech-icon">
+              <img src="./assets/icons/react.svg" alt="React Icon">
+            </div>
+            <div class="card__tech-icon">
+              <img src="./assets/icons/firebase.png" alt="Tailwind icon">
+            </div>
+            <div class="card__tech-icon">
+              <img src="./assets/icons/metamask.png" alt="Supabase icon">
+            </div>
+            <div class="card__tech-icon">
+                <img src="./assets/icons/stripe.png" alt="Shadcnui icon">
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="card__face card__face--back">
+          <div class="card__badge--back">
+              <div class="card__tech-icons--back">
+                <div class="card__tech-icon">
+                    <img src="./assets/icons/react.svg" alt="React Icon">
+                  </div>
+                  <div class="card__tech-icon">
+                    <img src="./assets/icons/firebase.png" alt="Tailwind icon">
+                  </div>
+                  <div class="card__tech-icon">
+                    <img src="./assets/icons/metamask.png" alt="Supabase icon">
+                  </div>
+                  <div class="card__tech-icon">
+                      <img src="./assets/icons/stripe.png" alt="Shadcnui icon">
+                    </div>
+              </div>
+            </div>
+          <div class="card__tags-back">
+          
+          
+          </div>
+          <h3 class="card__title">Matter invoice builder</h3>
+     
+          <p class="card__description">
+            Billing platform with dual payment integration: Stripe for credit cards and MetaMask for crypto. 
+        </p>
+          
+          <p class="card__description">The Firebase backend manages invoice lifecycle, payment status tracking, and fiat-to-crypto interoperability.
+          </p></p>
+
+          <div class="card__buttons--back">
+              <a class="card__button--back" href="https://matter-tau.vercel.app/" target="_blank">
+                <img src="./assets/png/source.png"></img>
+                  Live Demo</a>
+              <a  class="card__button--back" href="https://github.com/AntonioPiattiFadda/matter.git" target="_blank">   <img src="./assets/png/white-github.png"></img>Source Code</a>
+          </div>
+      </div>
+    </div>
+  </div>
+    
+            </section> 
     
     
     
-                    <div class="swiper-pagination"></div>
-    
-                </div>
-            </section>
-    
-    
-    
+<!--     
             <section class="skills section" id="skills">
                 <h2 data-section="skills_data" data-value="skills_title" class="section__title">Skills</h2>
                 <span data-section="skills_data" data-value="skills_subtitle"  class="section__subtitle">My technical level</span>
     
                 <div class="skills__container container grid">
                     <div class="skill__container-content">
-                        <!--==== Skill1 ====-->
+                      
                         <div class="skills__content">
                             <div class="skills__header">
                                 <i class="uil uil-brackets-curly skills__icon"></i>
@@ -431,7 +480,7 @@
     
                             </div>
                         </div>
-                        <!--==== Skill2 ====-->
+                       
                         <div class="skills__content">
                             <div class="skills__header">
                                 <i class="uil uil-server-alt skills__icon"></i>
@@ -466,30 +515,30 @@
                     </div>
     
                 </div>
-            </section>
+            </section> -->
     
-    
-            <section class="qualification section" id="qualification">
-                <h2 data-section="qualification_data" data-value="qualification_title"  class="section__title">Qualification</h2>
-                <span data-section="qualification_data" data-value="qualification_subtitle"  class="section__subtitle">My personal journey</span>
+   
+            <section class="qualification section" id="experience">
+                <h2 data-section="qualification_data" data-value="qualification_title"  class="section__title">Experience</h2>
+                <span data-section="qualification_data" data-value="qualification_subtitle"  class="section__subtitle">My experience as developer</span>
     
                 <div class="qualification__container container">
                     <div class="qualification__tabs">
                         <div data-section="qualification_data" data-value="qualification_education"  class="qualification__button button--flex">
-                            <i class="uil uil-graduation-cap qualification__icon"></i>
-                            Education
+                            <i class="uil uil-briefcase qualification__icon"></i>
+                            Work experience
                         </div>
                     </div>
     
                     <div class="qualification__sections">
                         <div class="qualification__content">
-                            <div class="qualification__data">
-                                <div class="qualification__data-info1" id="qualification__data-info1">
-                                    <h3 data-section="qualification_data" data-value="qualification_first__qualification__title"  class="qualification__title">Web developer course</h3>
-                                    <span class="qualification__subtitle">Coderhouse</span>
+                            <div class="qualification__data" id="qualification__data-info1">
+                                <div class="qualification__data-info" >
+                                    <h3 data-section="qualification_data" data-value="qualification_first__qualification__title"  class="qualification__title">Groweb</h3>
+                                    <span class="qualification__subtitle">Full Stack developer</span>
                                     <div data-section="qualification_data" data-value="qualification_first__qualification__year" class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        September - 2022
+                                       Dicember 2023 - Dicember 2024
                                     </div>
                                 </div>
     
@@ -507,12 +556,12 @@
                                     <span class="qualification__line"></span>
                                 </div>
     
-                                <div class="qualification__data-info2" id="qualification__data-info2">
-                                    <h3 data-section="qualification_data" data-value="qualification_second__qualification__title" class="qualification__title">React course</h3>
-                                    <span class="qualification__subtitle">Platzi</span>
+                                <div class="qualification__data-info" >
+                                    <h3 data-section="qualification_data" data-value="qualification_second__qualification__title" class="qualification__title">Cultzyme</h3>
+                                    <span class="qualification__subtitle">Front end developer</span>
                                     <div data-section="qualification_data" data-value="qualification_second__qualification__year"  class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        Dicember - 2022
+                                        Dicember 2024 - now
                                     </div>
                                 </div>
     
@@ -520,12 +569,14 @@
                             </div>
     
                             <div class="qualification__data">
-                                <div class="qualification__data-info3" id="qualification__data-info3">
-                                    <h3 data-section="qualification_data" data-value="qualification_third__qualification__title" class="qualification__title">Next.js course</h3>
-                                    <span class="qualification__subtitle">Platzi</span>
+                                <div class="qualification__data-info" 
+                                
+                                >
+                                    <h3 data-section="qualification_data" data-value="qualification_third__qualification__title" class="qualification__title">Freelancer</h3>
+                                    <span class="qualification__subtitle">Full Stack developer</span>
                                     <div data-section="qualification_data" data-value="qualification_third__qualification__year" class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        January - 2023
+                                        Dicember 2023 - Dicember 2024
                                     </div>
                                 </div>
     
@@ -542,12 +593,12 @@
                                     <span class="qualification__rounder"></span>
                                 </div>
     
-                                <div class="qualification__data-info4" id="qualification__data-info4">
-                                    <h3 data-section="qualification_data" data-value="qualification_fourth__qualification__title" class="qualification__title">Full Stack developer</h3>
-                                    <span class="qualification__subtitle">Platzi</span>
+                                <div class="qualification__data-info" >
+                                    <h3 data-section="qualification_data" data-value="qualification_fourth__qualification__title" class="qualification__title">Funiversity</h3>
+                                    <span class="qualification__subtitle">Programming instructor</span>
                                     <div data-section="qualification_data" data-value="qualification_fourth__qualification__year" class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        March - 2023
+                                        ebruary 2024 - now
                                     </div>
                                 </div>
 
@@ -559,9 +610,9 @@
                     </div>
                 </div>
             </section>
+  
     
-    
-     
+<!--      
             <section class="contact section" id="contact">
                 <h2 data-section="contact_data" data-value="contact_title" class="section__title">Contact Me</h2>
                 <span data-section="contact_data" data-value="contact_subtitle" class="section__subtitle">Get in touch</span>
@@ -607,10 +658,7 @@
                                 <input type="email" name="mail" class="contact__input" required>
                             </div>
                         </div>
-                        <!-- <div class="contact__content">
-                            <label data-section="contact_data" data-value="contact_form__project" for="" class="contact__label">Project</label>
-                            <input type="text" name="project" class="contact__input">
-                        </div> -->
+                       
                         <div class="contact__content">
                             <label data-section="contact_data" data-value="contact_form__message" for="" class="contact__label">Message</label>
                             <textarea  name="message" id="" cols="0" rows="7" class="contact__input" required></textarea>
@@ -630,15 +678,15 @@
                         emailjs.init('IaMc4iJjKGzwJiTw8')
                     </script>
                 </div>
-            </section>
+            </section> -->
         </main>
     
     
-        <footer class="footer">
+     <footer class="footer">
             <div class="footer__bg">
                 <div class="footer__container container grid">
                     <div class="footer__tittles-container">
-                        <h1 class="footer__title">Toni</h1>
+                        <h1 class="footer__title">Antonio</h1>
                         <span class="footer__subtitle">FullStack developer</span>
                     </div>
     
@@ -647,7 +695,7 @@
                             <a data-section="footer__data" data-value="footer_portfolio" href="#portfolio" class="footer__link">Portfolio</a>
                         </li>
                         <li>
-                            <a data-section="footer__data" data-value="footer_contact" href="#contact" class="footer__link">Contact me</a>
+                            <a data-section="footer__data" data-value="footer_contact" href="mailto:antonio.piattifadda@gmail.com" class="footer__link">Contact me</a>
                         </li>
                     </ul>
     
@@ -663,14 +711,16 @@
                 </div>
     
             </div>
-        </footer>
+        </footer> 
     
-        <div>
+        <!-- <div>
             <a href="#home" class="scroll__top" id="scroll__top">
                 <i class="uil uil-top-arrow-to-top scroll__top-icon"></i>
             </a>
-        </div>
+        </div> -->
     
+
+        
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="./assets/js/swiper-bundle.min.js"></script>
         <script src="/assets/js/main.js"></script>

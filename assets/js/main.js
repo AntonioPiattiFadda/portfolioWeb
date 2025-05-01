@@ -29,37 +29,36 @@ console.log(navLink);
 navLink.forEach((n) => n.addEventListener('click', linkAction));
 
 /*==================== ACCORDION SKILLS ====================*/
-const skillList = document.getElementById('skills__list');
-const skillsIcon = document.getElementById('skills__icon-down');
+// const skillList = document.getElementById('skills__list');
+// const skillsIcon = document.getElementById('skills__icon-down');
 
-function openSkillsBar() {
-  skillList.classList.toggle('skills__list-open');
-  skillsIcon.classList.toggle('skills__icon-down-opened');
-}
+// function openSkillsBar() {
+//   skillList.classList.toggle('skills__list-open');
+//   skillsIcon.classList.toggle('skills__icon-down-opened');
+// }
 /*==================== ACCORDION SKILLS 2 ====================*/
-skillsIcon.addEventListener('click', openSkillsBar);
+// skillsIcon.addEventListener('click', openSkillsBar);
 
-const skillList2 = document.getElementById('skills__list2');
-const skillsIcon2 = document.getElementById('skills__icon-down2');
+// const skillList2 = document.getElementById('skills__list2');
+// const skillsIcon2 = document.getElementById('skills__icon-down2');
 
-function openSkillsBar2() {
-  skillList2.classList.toggle('skills__list-open2');
-  skillsIcon2.classList.toggle('skills__icon-down-opened');
-}
+// function openSkillsBar2() {
+//   skillList2.classList.toggle('skills__list-open2');
+//   skillsIcon2.classList.toggle('skills__icon-down-opened');
+// }
 
-skillsIcon2.addEventListener('click', openSkillsBar2);
+// skillsIcon2.addEventListener('click', openSkillsBar2);
 
 /*==================== QUALIFICATION TABS ====================*/
 
 const qd1 = document.getElementById('qualification__data-info1');
-const qd2 = document.getElementById('qualification__data-info2');
-const qd3 = document.getElementById('qualification__data-info3');
-const qd4 = document.getElementById('qualification__data-info4');
+// const qd2 = document.getElementById('qualification__data-info2');
+// const qd3 = document.getElementById('qualification__data-info3');
+// const qd4 = document.getElementById('qualification__data-info4');
 
 const cargarImagen = (entradas, oservador) => {
   entradas.forEach((entrada) => {
     if (entrada.isIntersecting) {
-      console.log('Imagen dentro del VP');
       entrada.target.classList.add('visible');
     } else {
       // No se si me gusta este efecto
@@ -75,9 +74,9 @@ const observador = new IntersectionObserver(cargarImagen, {
 });
 
 observador.observe(qd1);
-observador.observe(qd2);
-observador.observe(qd3);
-observador.observe(qd4);
+// observador.observe(qd2);
+// observador.observe(qd3);
+// observador.observe(qd4);
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiper = new Swiper('.portfolio__container', {
@@ -165,27 +164,27 @@ sr.reveal('.button__scroll-reveal', {});
 
 /*==================== SEND CONTACT INFORMATION ====================*/
 
-const btn = document.getElementById('button');
+// const btn = document.getElementById('button');
 
-document.getElementById('form').addEventListener('submit', function (event) {
-  event.preventDefault();
+// document.getElementById('form').addEventListener('submit', function (event) {
+//   event.preventDefault();
 
-  btn.classList.add('cargando');
+//   btn.classList.add('cargando');
 
-  const serviceID = 'default_service';
-  const templateID = 'template_bh65hvn';
+//   const serviceID = 'default_service';
+//   const templateID = 'template_bh65hvn';
 
-  emailjs.sendForm(serviceID, templateID, this).then(
-    () => {
-      btn.classList.remove('cargando');
-      alert('Message sent correctly!');
-    },
-    (err) => {
-      btn.classList.remove('cargando');
-      alert(JSON.stringify(err));
-    }
-  );
-});
+//   emailjs.sendForm(serviceID, templateID, this).then(
+//     () => {
+//       btn.classList.remove('cargando');
+//       alert('Message sent correctly!');
+//     },
+//     (err) => {
+//       btn.classList.remove('cargando');
+//       alert(JSON.stringify(err));
+//     }
+//   );
+// });
 
 /*==================== TRADUCCION EN/ES ====================*/
 
@@ -208,13 +207,13 @@ for (let i = 0; i < traductionBtn.length; i++) {
   });
 }
 
-const languageToggle = document.getElementById('languageToggle');
-const content = document.getElementById('content');
+// const languageToggle = document.getElementById('languageToggle');
+// const content = document.getElementById('content');
 
-languageToggle.addEventListener('click', function () {
-  content.textContent =
-    content.textContent === 'Hola, bienvenido a mi página.'
-      ? 'Hello, welcome to my page.'
-      : 'Hola, bienvenido a mi página.';
-  languageToggle.classList.toggle('active');
-});
+// languageToggle.addEventListener('click', function () {
+//   content.textContent =
+//     content.textContent === 'Hola, bienvenido a mi página.'
+//       ? 'Hello, welcome to my page.'
+//       : 'Hola, bienvenido a mi página.';
+//   languageToggle.classList.toggle('active');
+// });
