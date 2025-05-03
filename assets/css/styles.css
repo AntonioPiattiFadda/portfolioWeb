@@ -557,15 +557,10 @@ img {
   transform: translateX(0);
 }
 
-/*==================== PORTFOLIO ====================*/
-.portfolio__container {
-  overflow: initial;
-}
+/*==================== PORTFOLIO ================y====*/
 
-.portfolio__container {
+.portfolio__cont {
   width: 100%;
-  max-width: 1200px;
-  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   padding: 2rem;

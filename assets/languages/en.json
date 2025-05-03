@@ -39,27 +39,30 @@
     "portfolio_subtitle": "Most recent projects",
     "portfolio_backend_frontend": "Backend & Frontend",
     
-    "portfolio_popsite_title": "Pop Site website builder",
+    "portfolio_popsite_title": "Pop Site website </br> builder",
+    "portfolio_popsite_title--back": "Pop Site website builder",
     "portfolio_popsite_description_1": "Modern SaaS platform with Firebase backend for real-time data storage and user authentication.",
     "portfolio_popsite_description_2": "Payment processing through Stripe integration, handling subscriptions and automated billing workflows.",
-    "portfolio_popsite_description_3": "UI built with React and Tailwind CSS, featuring continuous deployment to Vercel for instant updates when code changes are pushed.",
-    "portfolio_live_application": "Live Application",
+    "portfolio_popsite_description_3": "Featuring continuous deployment to Vercel with the ability to configure custom domains for websites.",
+    "portfolio_live_application": "<img src='./assets/png/source.png'></img> Live Application",
     
-    "portfolio_crm_title": "CRM for real state agencies",
+    "portfolio_crm_title": "CRM for real state </br> agencies",
+    "portfolio_crm_title--back": "CRM for real state agencies",
     "portfolio_crm_description_1": "User authentication and authorization with supabase, allowing users to create and manage their own accounts.",
     "portfolio_crm_description_2": "Integration with google maps api to manage properties location and drag and drop gallery to manage your photos.",
     
-    "portfolio_lottowin_title": "Lottowin Crypto Lottery",
+    "portfolio_lottowin_title": "Lottowin Crypto </br> Lottery",
+    "portfolio_lottowin_title--back": "Lottowin Crypto Lottery",
     "portfolio_lottowin_description_1": "A decentralized lottery application powered by a custom backend and smart contracts. Users connect via MetaMask to create or join lottery games.",
     "portfolio_lottowin_description_2": "The backend, built in Node.js, manages game logic, player entries, and prize distribution, ensuring a secure and transparent experience on the blockchain.",
-    "portfolio_demo_video": "Demo Video",
+    "portfolio_demo_video": "<img src='./assets/png/youtube.png'></img>  Demo Video",
     
-    "portfolio_matter_title": "Matter App Invoice Builder",
+    "portfolio_matter_title": "Matter App Invoice </br> Builder",
     "portfolio_matter_back_title": "Matter invoice builder",
     "portfolio_matter_description_1": "Billing platform with dual payment integration: Stripe for credit cards and MetaMask for crypto.",
     "portfolio_matter_description_2": "The Firebase backend manages invoice lifecycle, payment status tracking, and fiat-to-crypto interoperability.",
-    "portfolio_live_demo": "Live Demo",
-    "portfolio_source_code": "Source Code"
+    "portfolio_live_demo": "<img src='./assets/png/source.png'></img> Live Demo",
+    "portfolio_source_code": "<img src='./assets/png/white-github.png'></img> Source Code"
   },
   "contact_data": {
     "contact_title": "Contact Me",

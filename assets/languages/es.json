@@ -41,27 +41,33 @@
     "portfolio_subtitle": "Proyectos más recientes",
     "portfolio_backend_frontend": "Backend y Frontend",
     
-    "portfolio_popsite_title": "Construtor de sitios web Pop Site",
-    "portfolio_popsite_description_1": "Plataforma SaaS moderna con backend Firebase para almacenamiento de datos en tiempo real y autenticación de usuarios.",
-    "portfolio_popsite_description_2": "Procesamiento de pagos a través de integración con Stripe, manejo de suscripciones y flujos de facturación automatizados.",
-    "portfolio_popsite_description_3": "Interfaz construida con React y Tailwind CSS, con despliegue continuo en Vercel para actualizaciones instantáneas cuando se envían cambios en el código.",
-    "portfolio_live_application": "Aplicación en vivo",
+    "portfolio_popsite_title": "Construtor de sitios </br> web  Pop Site",
+    "portfolio_popsite_title--back": "Construtor de sitios web  Pop Site",
+
+    "portfolio_popsite_description_1": "Plataforma con backend Firebase para almacenamiento de datos en tiempo real y autenticación de usuarios.",
+    "portfolio_popsite_description_2": "Procesamiento de pagos integrado con Stripe, manejo de suscripciones y facturación automatizados.",
+    "portfolio_popsite_description_3": "Despliegue continuo en Vercel y opción de configurar dominios personalizados para los sitios web.",
+    "portfolio_live_application": "<img src='./assets/png/source.png'></img> Aplicación en vivo",
     
     "portfolio_crm_title": "CRM para agencias inmobiliarias",
+    "portfolio_crm_title--back": "CRM para agencias inmobiliarias",
+
     "portfolio_crm_description_1": "Autenticación y autorización de usuarios con Supabase, permitiendo a los usuarios crear y gestionar sus propias cuentas.",
     "portfolio_crm_description_2": "Integración con la API de Google Maps para gestionar la ubicación de propiedades y galería con arrastrar y soltar para gestionar tus fotos.",
     
-    "portfolio_lottowin_title": "Lotería Crypto Lottowin",
+    "portfolio_lottowin_title": "Lotería Crypto </br> Lottowin",
+    "portfolio_lottowin_title--back": "Lotería Crypto Lottowin",
+
     "portfolio_lottowin_description_1": "Una aplicación de lotería descentralizada impulsada por un backend personalizado y contratos inteligentes. Los usuarios se conectan a través de MetaMask para crear o unirse a juegos de lotería.",
     "portfolio_lottowin_description_2": "El backend, construido en Node.js, gestiona la lógica del juego, las entradas de los jugadores y la distribución de premios, garantizando una experiencia segura y transparente en la blockchain.",
-    "portfolio_demo_video": "Video de demostración",
+    "portfolio_demo_video": "<img src='./assets/png/youtube.png'></img>  Video Demo",
     
-    "portfolio_matter_title": "Creador de Facturas Matter App",
+    "portfolio_matter_title": "Creador de Facturas </br> Matter App",
     "portfolio_matter_back_title": "Creador de facturas Matter",
     "portfolio_matter_description_1": "Plataforma de facturación con integración dual de pagos: Stripe para tarjetas de crédito y MetaMask para criptomonedas.",
     "portfolio_matter_description_2": "El backend de Firebase gestiona el ciclo de vida de las facturas, el seguimiento del estado de los pagos y la interoperabilidad fiat-cripto.",
-    "portfolio_live_demo": "Demo en vivo",
-    "portfolio_source_code": "Código fuente"
+    "portfolio_live_demo": "<img src='./assets/png/source.png'></img> Demo",
+    "portfolio_source_code": "<img src='./assets/png/white-github.png'></img> Código fuente"
   },
   "contact_data": {
     "contact_title": "Contacto",
