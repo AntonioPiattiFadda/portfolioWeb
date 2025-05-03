@@ -24,7 +24,7 @@
       "qualification_data": {
       "qualification_title": "Experiencia",
       "qualification_subtitle": "Mi experiencia como desarrollador",
-      "qualification_education": "Experiencia laboral",
+      "qualification_education": "    <i class='uil uil-briefcase qualification__icon'></i> Experiencia laboral",
       "qualification_first__qualification__title": "Groweb",
       "qualification_first__qualification__year": "<i class='uil uil-calendar-alt'></i> Diciembre 2023 - Diciembre 2024",
       "qualification_second__qualification__title": "Cultzyme",
