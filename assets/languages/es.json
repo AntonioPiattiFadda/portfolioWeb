@@ -6,7 +6,7 @@
   },
   "home_data": {
     "home_title": "Hola, soy Antonio",
-    "home_button": "Contáctame <i class='uil uil-message button__icon'></i>",
+    "home_button": "Contáctame <i class='uil uil-envelope button__icon'></i>",
     "home__description": "Córdoba, Argentina."
   },
   "about_data": {
@@ -26,13 +26,13 @@
       "qualification_subtitle": "Mi experiencia como desarrollador",
       "qualification_education": "Experiencia laboral",
       "qualification_first__qualification__title": "Groweb",
-      "qualification_first__qualification__year": "Diciembre 2023 - Diciembre 2024",
+      "qualification_first__qualification__year": "<i class='uil uil-calendar-alt'></i> Diciembre 2023 - Diciembre 2024",
       "qualification_second__qualification__title": "Cultzyme",
-      "qualification_second__qualification__year": "Diciembre 2024 - actualidad",
+      "qualification_second__qualification__year": "<i class='uil uil-calendar-alt'></i> Diciembre 2024 - actualidad",
       "qualification_third__qualification__title": "Freelancer",
-      "qualification_third__qualification__year": "Diciembre 2023 - Diciembre 2024",
+      "qualification_third__qualification__year": "<i class='uil uil-calendar-alt'></i> Diciembre 2023 - Diciembre 2024",
       "qualification_fourth__qualification__title": "Funiversity",
-      "qualification_fourth__qualification__year": "Febrero 2024 - actualidad"
+      "qualification_fourth__qualification__year": "<i class='uil uil-calendar-alt'></i> Febrero 2024 - actualidad"
     },
   
   

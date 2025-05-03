@@ -6,7 +6,7 @@
   },
   "home_data": {
     "home_title": "Hi, I'm Antonio",
-    "home_button": "Contact me <i class='uil uil-message button__icon'></i>",
+    "home_button": "Contact me <i class='uil uil-envelope button__icon'></i>",
     "home__description": "Córdoba, Argentina."
   },
   "about_data": {
@@ -26,13 +26,13 @@
     "qualification_subtitle": "My experience as developer",
     "qualification_education": "Work experience",
     "qualification_first__qualification__title": "Groweb",
-    "qualification_first__qualification__year": "December 2023 - December 2024",
+    "qualification_first__qualification__year": " <i class='uil uil-calendar-alt'></i> December 2023 - December 2024",
     "qualification_second__qualification__title": "Cultzyme",
-    "qualification_second__qualification__year": "December 2024 - now",
+    "qualification_second__qualification__year": "<i class='uil uil-calendar-alt'></i> December 2024 - now",
     "qualification_third__qualification__title": "Freelancer",
-    "qualification_third__qualification__year": "December 2023 - Dicember 2024",
+    "qualification_third__qualification__year": "<i class='uil uil-calendar-alt'></i> December 2023 - Dicember 2024",
     "qualification_fourth__qualification__title": "Funiversity",
-    "qualification_fourth__qualification__year": "February 2024 - now"
+    "qualification_fourth__qualification__year": "<i class='uil uil-calendar-alt'></i> February 2024 - now"
   },
   "portfolio_data": {
     "portfolio_title": "Portfolio",
